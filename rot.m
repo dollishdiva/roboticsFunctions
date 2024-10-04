@@ -7,6 +7,5 @@ if size(w,1) == 1
     w =w';
 end
 
-%this is wrong for now
 rotate = eye(size(w,1))+sin(theta)*skew(w)+(1-cos(theta))*skew(w)^2;
 end
